@@ -1,0 +1,37 @@
+{
+  "name": "@MiRacLe-RPZ/opencode-yakuake-workspace",
+  "version": "1.0.0",
+  "description": "Yakuake workspace manager for OpenCode - companion terminals, session-aware split panes, and desktop notifications",
+  "type": "module",
+  "exports": {
+    "./tui": "./opencode-yakuake-workspace.tui.ts"
+  },
+  "files": [
+    "opencode-yakuake-workspace.tui.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "opencode": ">=1.18.0"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=1.18.0",
+    "@rivolink/leaf": "*"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "tui",
+    "yakuake",
+    "terminal",
+    "workspace",
+    "kde",
+    "linux"
+  ],
+  "author": "MiRacLe-RPZ",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiRacLe-RPZ/opencode-yakuake-workspace"
+  }
+}
