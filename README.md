@@ -83,13 +83,13 @@ cp opencode-yakuake-workspace.tui.ts ~/.config/opencode/tui-plugins/
 When you start OpenCode in Yakuake with a session (e.g., `opencode -s <sessionId>`):
 
 ```
-┌─────────────────────────────────────────────────────┐
-│  OpenCode TUI (main terminal)                       │
-│  ─────────────────────────────────────────────────  │
-│  Session notes (leaf editor, 400px width)           │
-├─────────────────────────────────────────────────────┤
-│  Companion shell (120px height, auto-cd to project) │
-└─────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────┐
+│                                                 │editable│
+│          OpenCode TUI (main terminal)           │ notes  │ 
+│                                                 │ (leaf) │
+├─────────────────────────────────────────────────┤        │
+│        Companion shell (120px height)           │ 400px  │ 
+└─────────────────────────────────────────────────┘────────┘
 ```
 
 ### Session Notes
