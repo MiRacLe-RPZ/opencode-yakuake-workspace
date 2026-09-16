@@ -84,11 +84,11 @@ When you start OpenCode in Yakuake with a session (e.g., `opencode -s <sessionId
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│                                                 │editable│
-│          OpenCode TUI (main terminal)           │ notes  │ 
-│                                                 │ (leaf) │
+│                                                      │editable│
+│          OpenCode TUI (main terminal)                │ notes  │ 
+│                                                      │ (leaf) │
 ├─────────────────────────────────────────────────┤        │
-│        Companion shell (120px height)           │ 400px  │ 
+│        Companion shell (120px height)                │ 400px  │ 
 └─────────────────────────────────────────────────┘────────┘
 ```
 
